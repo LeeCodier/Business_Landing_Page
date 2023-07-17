@@ -1,0 +1,164 @@
+*
+{
+ padding: 0;
+ margin:0;   
+}
+
+ .container .hero
+{
+   padding:10px 90px 10px 90px;
+   height:auto;
+   background-color: #BC8F8F;
+   
+}
+
+.container .hero .nav{
+ display:flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.container .hero .nav .logo{
+font-size: 50px;
+}
+
+.container .hero .nav .links a
+{
+   text-decoration: none;
+   color:black;
+   font-size: 20px;
+   gap: 30px;
+}
+
+.container .hero .ad
+{
+margin-top:50px;
+display: flex;
+
+}
+
+.container .hero .ad .adinfo{
+flex:1 0 50%;
+}
+
+.container .hero .ad .adinfo .head{
+font-size: large;
+font-weight:bold;
+margin-bottom: 15px;
+
+}
+
+.container .hero .ad .adinfo .book
+{
+padding: 5px;
+margin-top:15px;
+border:solid 1px black;
+background-color: #BC8F8F;
+}
+
+.container .hero .ad .adinfo .book:hover
+{
+    background-color: pink;
+    color: aliceblue;
+}
+
+.container .hero .ad .adimg img
+{
+    flex:1 0 50%;
+width:50%;
+height:auto;
+}
+
+.container .services .slogan 
+{
+    width:100%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container .services .perks
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+} 
+
+.container .services .perks .box
+{
+display: flex;
+flex-direction: column;
+
+}
+
+.container .services .perks .box img
+{
+    height:100px;
+    width: 100px;
+    border: solid 2px #BC8F8F;
+    margin-bottom: 5px;
+}
+
+
+.container .testimonial
+{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container .testimonial .quote
+{
+   font-size: 30px;
+   font-style: italic;
+}
+
+.container .testimonial .authour
+{
+ text-align: end;
+ font-weight: bold;
+}
+
+.container .cta{
+width:100%;
+justify-content: center;
+display: flex;
+background-color: #BC8F8F;
+}
+
+.container .cta button{
+
+    border: none;
+    padding: 5px;
+margin-top:15px;
+font-size: 20px;
+background-color: #BC8F8F;
+}
+
+.container .cta button:hover{
+
+   
+    color: aliceblue;
+}
+
+.container .footer
+{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+background-color: antiquewhite;
+}
+
+.container .footer p{
+    font-size: 20px;
+}
